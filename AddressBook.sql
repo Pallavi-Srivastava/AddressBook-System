@@ -1,0 +1,13 @@
+CREATE DATABASE AddressBookService;
+SHOW DATABASES;
+CREATE TABLE`addressbook` AddressBook(
+    FirstName VARCHAR(50) NOT NULL PRIMARY KEY,
+    LastName VARCHAR(50) NOT NULL,
+    Address VARCHAR(100) NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    State VARCHAR(50) NOT NULL,
+    Zip INT(20) NOT NULL,
+    PhoneNumber INT(20) NOT NULL,
+    Email VARCHAR(40) NOT NULL
+);
+SHOW TABLES;
